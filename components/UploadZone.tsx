@@ -1,12 +1,12 @@
 import React from 'react'
 import styles from '../styles/UploadZone.module.css'
 
-export default function UploadZone(props) {
+export default function UploadZone({ handleFile }) {
     return (
         <div>
             <input type="file"
-                onChange={props.handleFile}
-                onDrop={props.handleFile}
+                onChange={handleFile}
+                onDrop={handleFile}
             />
         </div>
     )

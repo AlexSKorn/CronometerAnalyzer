@@ -5,7 +5,7 @@ export type MacroData = {
     Carbohydrates: number;
 };
 
-export type ImportantHealthValues = {
+export type OtherHealthValues = {
     Fiber: number;
     Calcium: number;
     Sodium: number;
